@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 function Navbar(){
     return(
-        <div className="flex flex-row gap-8 justify-center items-center w-[40vw] h-[40px] bg-gray-800/90 backdrop-blur-sm text-white font-thin rounded-sm">
+        <div className="flex flex-row gap-8 justify-center items-center px-5 h-[40px] bg-gray-800/90 backdrop-blur-sm text-white font-thin rounded-sm">
             <NavLink
                 to="/"
                 className={({ isActive }) =>
