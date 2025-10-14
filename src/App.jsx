@@ -11,14 +11,14 @@ function App() {
         <div
           className="absolute inset-0 z-0"
           style={{
-            background: "radial-gradient(125% 125% at 50% 10%, #000000 40%, #2b0707 100%)",
+            background: "radial-gradient(125% 125% at 80% 30%, #000000 40%, #2b0707 100%)",
           }}
         />
         {/* Your Content/Components */}
 
         <div className="z-10">
           <Header />
-          <div>
+          <div className="relative z-10">
             <Routes>
               <Route path="/" element={<Homepage/>}/>
             </Routes>
