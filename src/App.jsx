@@ -1,6 +1,7 @@
 import React from "react"
 import { Routes, Route } from "react-router-dom"
 import Homepage from "./Components/Homepage"
+import Header from "./Components/Header"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         {/* Your Content/Components */}
 
         <div className="z-10">
+          <Header />
           <div>
             <Routes>
               <Route path="/" element={<Homepage/>}/>
