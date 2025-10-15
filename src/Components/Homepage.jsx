@@ -1,13 +1,14 @@
 import React from "react";
+import Career from "./Career";
 import { TrophyIcon, AwardIcon,GlobeIcon,  GoalIcon } from "lucide-react";
 import Herosection from "./Herosection";
 import CountUp from "react-countup";
 function Homepage(){
     return(
-        <div className="pt-30  z-20">
+        <div className="pt-32  z-20">
             <Herosection/>
 
-            <div className="flex md:flex-row justify-center gap-4">
+            <div className="flex flex-col md:flex-row justify-center gap-4">
                 <div className="flex flex-col gap-4 justify-center items-center w-[250px] h-[250px]">
                     <GoalIcon  color="#FFD700"/>
                     <div className="flex flex-row gap-2 justify-center items-center">
@@ -73,6 +74,7 @@ function Homepage(){
                 </div>
             </div>
             
+            <Career />
         </div>
     );
 }

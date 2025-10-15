@@ -3,15 +3,15 @@ import HERO from "../assets/C3.jpg";
 import { motion } from "motion/react";
 function Herosection(){
     return(
-        <div className="flex md:gap-16 justify-center items-center md:flex-row z-20 pb-20">
+        <div className="flex flex-col md:gap-16 justify-center items-center md:flex-row z-20 pb-20">
             <motion.div 
                 initial={{opacity: 0, x: -100}}
                 animate={{opacity:1, x: 0}}
                 transition={{duration: 1}}
-                className="flex flex-col gap-3 pr-10"
+                className="flex flex-col gap-3 md:pr-10 md:items-start items-center"
             >
-                <p className="text-white font-extrabold md:text-7xl">CRISTIANO <br/><span className="text-red-600">RONALDO</span></p>
-                <p className="font-thin text-white max-w-[400px]">
+                <p className="text-white font-extrabold text-4xl md:text-7xl">CRISTIANO <br/><span className="text-red-600 md:text-6xl">RONALDO</span></p>
+                <p className="font-thin text-white max-w-[400px] text-center md:text-left">
                     From the streets of Madeira to the grandest stages of football, Ronaldo’s journey inspires millions to chase greatness with passion and determination.
                 </p>
 

@@ -2,11 +2,12 @@ import React from "react"
 import { Routes, Route } from "react-router-dom"
 import Homepage from "./Components/Homepage"
 import Header from "./Components/Header"
+import Career from "./Components/Career"
 
 function App() {
   return (
     
-      <div className="min-h-screen w-full relative">
+      <div className="min-h-screen w-full relative overflow-hidden">
         {/* Crimson Depth */}
         <div
           className="absolute inset-0 z-0"
@@ -21,6 +22,7 @@ function App() {
           <div className="relative z-10 pb-10">
             <Routes>
               <Route path="/" element={<Homepage/>}/>
+              <Route path="/career" element={<Career />}/>
             </Routes>
           </div>
         </div>
