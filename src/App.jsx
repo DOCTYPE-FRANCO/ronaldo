@@ -18,7 +18,7 @@ function App() {
 
         <div className="z-10">
           <Header />
-          <div className="relative z-10 ">
+          <div className="relative z-10 pb-10">
             <Routes>
               <Route path="/" element={<Homepage/>}/>
             </Routes>
