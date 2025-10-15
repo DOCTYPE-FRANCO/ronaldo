@@ -22,9 +22,10 @@ function App() {
           <div className="relative z-10 pb-10">
             <Routes>
               <Route path="/" element={<Homepage/>}/>
-              <Route path="/career" element={<Career />}/>
+             
             </Routes>
           </div>
+          
         </div>
       </div>
     

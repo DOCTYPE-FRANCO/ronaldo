@@ -1,6 +1,7 @@
 import React from "react"; 
 import HERO from "../assets/C3.jpg";
 import { motion } from "motion/react";
+import { Link } from "react-router-dom";
 function Herosection(){
     return(
         <div className="flex flex-col md:gap-16 gap-8 justify-center items-center md:flex-row z-20 pb-20">
@@ -16,7 +17,7 @@ function Herosection(){
                 </p>
 
                 <div className="flex flex-row gap-3 mt-5 ">
-                    <button className="text-white font-thin bg-red-600 w-[150px] h-[35px] rounded-xs hover:scale-105 transition-all duration-500">Explore Career</button>
+                    <a href="#career" className="flex justify-center items-center text-white font-thin bg-red-600 w-[150px] h-[35px] rounded-xs hover:scale-105 transition-all duration-500">Explore Career</a>
                     <a href="https://youtu.be/mmeLCAP74KA?si=H5tNTIOL-t41ykgG">
                         <button className="text-white font-thin border-2 border-white w-[150px] h-[35px] hover:bg-gray-700 transition-all duration-500">Watch Highlights</button>
                     </a>
