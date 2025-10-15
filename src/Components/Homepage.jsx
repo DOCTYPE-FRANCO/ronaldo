@@ -5,7 +5,7 @@ import Herosection from "./Herosection";
 import CountUp from "react-countup";
 function Homepage(){
     return(
-        <div className="pt-32  z-20">
+        <div className="pt-32 z-20">
             <Herosection/>
 
             <div className="flex flex-col md:flex-row justify-center items-center gap-4">
