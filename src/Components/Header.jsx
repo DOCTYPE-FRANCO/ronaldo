@@ -10,7 +10,7 @@ function Header(){
             <Navbar />
 
             <div>
-                <button className="w-[90px] h-[40px] rounded-sm text-white font-thin bg-red-600">CONTACT</button>
+                <a href="https://wa.me/2348120362926?text=Hello%20i%20got%20your%20contact%20from%20the%20ronaldo%20site" className="px-3 py-3 rounded-sm text-white font-thin bg-red-600 hover:scale-105 transition-all duration-500">CONTACT DEVELOPER</a>
             </div>
         </div>
     );

@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom"
 import Homepage from "./Components/Homepage"
 import Header from "./Components/Header"
 import Career from "./Components/Career"
+import Footer from "./Components/Footer"
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
              
             </Routes>
           </div>
-          
+          <Footer />
         </div>
       </div>
     
